@@ -9,3 +9,5 @@
 
 缺点：1.不能识别“An”这种类似的拼音，需要自己手动更改，不改作为参考文献中的引用也无伤大雅。
 2.实现方法粗糙对于复杂的情况不能准确识别。
+
+附加一个自己改的Nano Research的参考文献格式，firstname字段与lastname字段与官方要求的相反，这个格式为我们组内自用，有需求可以自己去https://editor.citationstyles.org/visualEditor/自己更改。
