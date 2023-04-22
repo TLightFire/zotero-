@@ -1,7 +1,7 @@
 中国人为作者的英文文献在引用中只会显示姓的首字母以及名的第一个字的首字母。两个字的名字没有问题，如果是三个字的名字就会缺失一个字的首字母；
 而有的中文SCI的参考文献格式要求显示完全，比如Nano Research；
 幸亏有zotero这个比较开放的文献管理软件，能批量处理这些事情；
-这个js脚本参考了http://t.csdn.cn/PdEje中的拼音分割原理，通过chatgpt改写成js语言。
+这个js脚本参考了http://t.csdn.cn/PdEje 中的拼音分割原理，通过chatgpt改写成js语言。
 
 作用：1.自动识别姓与名，将姓填入lastname字段，名填入firstname字段。
 2.将名的拼音通过空格进行分割，字与字之间首字母大写。
@@ -10,4 +10,4 @@
 缺点：1.不能识别“An”这种类似的拼音，需要自己手动更改，不改作为参考文献中的引用也无伤大雅。
 2.实现方法粗糙对于复杂的情况不能准确识别。
 
-附加一个自己改的Nano Research的参考文献格式，firstname字段与lastname字段与官方要求的相反，这个格式为我们组内自用，有需求可以自己去https://editor.citationstyles.org/visualEditor/自己更改。
+附加一个自己改的Nano Research的参考文献格式，firstname字段与lastname字段与官方要求的相反，这个格式为我们组内自用，有需求可以自己去https://editor.citationstyles.org/visualEditor/ 自己更改。
